@@ -1,16 +1,10 @@
-/* public class DogOwner {
+public class DogOwner {
 
-
-    public void setDrinkTime(){
+    public boolean takeDogForWalk(Dog d){
+        return d.needsToGo();
+    }
 
     }
-    public getDrinkTime(){
-
-    }
-    public  needsToGo(){
-
-    }
-}
 
 
- */
+
